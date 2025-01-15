@@ -1,7 +1,9 @@
+//Library DHT
 #include "DHT.h"
 #define DHTPIN 5
 #define DHTTYPE DHT11
 
+//Library ESP dan Firebase
 #include <Arduino.h>
 #if defined(ESP32)
   #include <WiFi.h>
@@ -18,14 +20,14 @@ DHT dht(DHTPIN, DHTTYPE);
 #include "addons/RTDBHelper.h"
 
 // Insert your network credentials
-#define WIFI_SSID "iPhone Demecheng"
-#define WIFI_PASSWORD "masukkan"
+#define WIFI_SSID "input nama WiFi"
+#define WIFI_PASSWORD "input password WiFi"
 
 // Insert Firebase project API Key
-#define API_KEY "AIzaSyCF4UdM5UyWYeE620pbVU-F8cUBjb6Uid4"
+#define API_KEY "input API Key yang diperoleh dari Firebase"
 
 // Insert RTDB URLefine the RTDB URL */
-#define DATABASE_URL "https://esp32-dht11-1e424-default-rtdb.asia-southeast1.firebasedatabase.app/" 
+#define DATABASE_URL "input realtime database yang diperoleh dari Firebase " 
 
 //Define Firebase Data object
 FirebaseData fbdo;
