@@ -23,3 +23,13 @@ Monitoring suhu dan kelembaban menggunakan ESP32 dan sensor DHT11 serta aplikasi
 - Pilih Database secrets: Show Secrets >> Copy and paste ke Notepad.
 
 # 2) Membuat Program di IDE Arduino
+Program dan Deskripsi terlampir di Folder
+
+# 3) Membuat Aplikasi di MIT App Inventor
+Link video tutorial: https://www.youtube.com/watch?v=H0M6lhGOFdo 
+
+Hal yang perlu diperhatikan ketika masukkan database Firebase 
+ke dalam MIT App Inventor:
+- ProjectBucket: nama sesuai di Realtime Database pada Firebase. contoh: DHT
+- FirebaseToken: diisi dengan Database Secret
+- FirebaseURL: diisi dengan URL Database 
