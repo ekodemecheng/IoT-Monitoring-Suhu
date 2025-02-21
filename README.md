@@ -8,12 +8,12 @@ Monitoring suhu dan kelembaban menggunakan ESP32 dan sensor DHT11 serta aplikasi
   - Enable Google Analytics for this project >>  Pilih Default Account for Firebase >> Klik Create project
 
 1.1) Membuat Autentifikasi: 
-- Pilih Menu "Build" >> Pilih Sub menu "Authentication" >> Klik Get started
+- Pilih Menu "Build" >> Pilih Sub menu "**Authentication**" >> Klik Get started
 - Pada bag. Authentication >> pilih menu "Sign-in method" >> Pilih Anonymous, lalu Enabled.
 - Pada bag. Project Overview >> Pilih Project settings >> Copy and paste "Web API Key" ke notepad.
 
 1.2) Membuat Realtime Database:
-- Pilih Menu "Build" >> Pilih Sub menu "Authentication" >> Klik Create Database
+- Pilih Menu "Build" >> Pilih Sub menu "**Realtime Database**" >> Klik Create Database
 - Muncul Set up database >> 1. Database option: Pilih lokasi >> klik Next. Lalu 2. Security rules: pilih "Start in locked mode" >> klik Enable.
 - Berhasil membuat Database: Copy paste "URL Database" ke notepad.
 - Pada bag. Realtime Database >> pilih menu "Rules" >> Edit rules >> ubah read & write menjadi: true >> klik Publish.
